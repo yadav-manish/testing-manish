@@ -2,9 +2,9 @@
 
 <select size="1" id="Rank" title="" name="Rank">
     <option value="">-Select Your Treatment-</option>
-    <option value="airman">Cancer1</option>
-    <option value="airman">Cancer2</option>
-    <option value="airman">Cancer3</option>
+    <option value="cancer">Cancer1</option>
+    <option value="cancer2">Cancer2</option>
+<!--    <option value="airman">Cancer3</option>
     <option value="airman">Cancer4</option>
     <option value="airman">Cancer5</option>
     <option value="airman">Cancer6</option>
@@ -12,16 +12,16 @@
     <option value="airman">Cancer8</option>
     <option value="airman">Cancer9</option>
     <option value="airman">Cancer10</option>
-    <option value="airman">Cancer11</option>
+    <option value="airman">Cancer11</option>-->
 </select>
 
 <div class="container">
-    <div class="airman">
+    <div class="cancer">
         <select class="second-level-select">
             <option value="">-Select Your Treatment Procedure/type-</option>
             <option value="basic-ore-1">Cancer1 - Level 1</option>
             <option value="basic-ore-2">Cancer1 - Level 2</option>
-            <option value="basic-ore-1">Cancer1 - Level 3</option>
+<!--            <option value="basic-ore-1">Cancer1 - Level 3</option>
             <option value="basic-ore-2">Cancer1 - Level 4</option>
             <option value="basic-ore-1">Cancer1 - Level 5</option>
             <option value="basic-ore-2">Cancer1 - Level 6</option>
@@ -29,15 +29,15 @@
             <option value="basic-ore-2">Cancer1 - Level 8</option>
             <option value="basic-ore-1">Cancer1 - Level 9</option>
             <option value="basic-ore-2">Cancer1 - Level 10</option>
-            <option value="basic-ore-1">Cancer1 - Level 11</option
+            <option value="basic-ore-1">Cancer1 - Level 11</option-->
         </select>      
     </div>
-    <div class="senior-airman">
+    <div class="cancer2">
         <select class="second-level-select">
             <option value="">-Select Your Rank-</option>
             <option value="omber-miner-1">Cancer2 - Level 1</option>
             <option value="omber-miner-2">Cancer2 - Level 2</option>
-            <option value="omber-miner-1">Cancer2 - Level 3</option>
+<!--            <option value="omber-miner-1">Cancer2 - Level 3</option>
             <option value="omber-miner-2">Cancer2 - Level 4</option>
             <option value="omber-miner-1">Cancer2 - Level 5</option>
             <option value="omber-miner-2">Cancer2 - Level 6</option>
@@ -45,24 +45,24 @@
             <option value="omber-miner-2">Cancer2 - Level 8</option>
             <option value="omber-miner-2">Cancer2 - Level 9</option>
             <option value="omber-miner-1">Cancer2 - Level 10</option>
-            <option value="omber-miner-2">Cancer2 - Level 11</option>
+            <option value="omber-miner-2">Cancer2 - Level 11</option>-->
         </select>
     </div>
 </div>
 
 <div class="second-level-container">
     <div class="basic-ore-1">
-        <a target="_blank" href="http://www.google.co.in"><button>submit Cancer1</button></a>
+        <a target="_blank" href="http://www.google.co.in"><button>submit Cancer1 - Level 1</button></a>
     </div>
     <div class="basic-ore-2">
-        Cancer3
+        <a target="_blank" href="http://www.google.co.in"><button>submit Cancer1 - Level 2</button></a>
     </div>
     <div class="omber-miner-1">
-        Cancer4
+        <a target="_blank" href="http://www.google.co.in"><button>submit Cancer2 - Level 1</button></a>
     </div>
     <div class="omber-miner-2">
-        Cancer5
-    </div>    
+        <a target="_blank" href="http://www.google.co.in"><button>submit Cancer2 - Level 2</button></a>
+    </div>
 </div>
 
 <script>
@@ -494,7 +494,7 @@ jQuery.extend({
 			i = first.length;
 
 		for ( ; j < len; j++ ) {
-			first[ i++ ] = second[ j ];   
+			first[ i++ ] = second[ j ];
 		}
 
 		first.length = i;
